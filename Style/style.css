@@ -34,7 +34,7 @@ body {
 }
 #principal ul {
     float: left;
-    position: fixed;
+    position: absolute;
     margin-top: -7px;
     margin-left:-9px;
     list-style-type: none;
@@ -96,24 +96,6 @@ a:hover {
     color :red;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container {
     width:  100%;
