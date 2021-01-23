@@ -1,23 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
+
 #menuGauche {
     position: fixed;
     width: 14%;
     height: 100%;
     background-color: #5499c7;
-    z-index:0;
+    z-index: 0;
 }
-
 #menuDroite{
     position: fixed;
     width: 14%;
     height: 100%;
     margin-left:86%; 
     background-color: #5499c7;
-    z-index:0;
+    z-index: 0;
 }
 
 #site{
@@ -27,17 +26,13 @@ body {
 }
 
 #principal {
-    width: 72%;
-    margin: 0;
-    background-color: red;
-
+    margin-top: -30px;
 }
 #principal ul {
-    float: left;
-    position: absolute;
-    margin-top: -7px;
-    margin-left:-9px;
-    list-style-type: none;
+    margin-left : 3%;
+    margin-right: 3%;
+    margin:top:0;
+    padding : 0;
 }
 #principal ul li {
     float: left;
@@ -52,22 +47,17 @@ body {
     background-color: #7fffbb;
     width: 100px;
     color: black;
-    text-decoration: none;
 }
 #principal ul li a:hover {
     color: white;
     background-color: #13703f ; 
 }
-
-#menu2 {
-   
-} 
+ 
 #texte {
     display: block;
-    width: 51%;
+    width: 95%;
     height:50%;
     margin: auto;
-    z-index:-1;
 }
 #texte p{
     text-align: left
@@ -79,7 +69,6 @@ body {
     background-color: #7fffbb;
     height: 60px;
 }
-
 #footer p {
     color: #164a29;
     font-weight: bold;
@@ -96,6 +85,7 @@ a:hover {
     color :red;
     text-decoration: underline;
 }
+
 
 .container {
     width:  100%;
