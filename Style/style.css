@@ -23,7 +23,7 @@ body {
 }
 
 #principal ul {
-    margin: 0;
+    margin: 0 auto;
 }
 #principal ul li {
     margin: 0 auto;
