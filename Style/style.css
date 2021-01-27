@@ -24,11 +24,13 @@ body {
 
 #principal ul {
     margin: 0;
+    padding:30px;
 }
 #principal ul li {
+    margin: 0 auto;
+    width: 100px; 
     float: left;
     list-style-type: none;
-    position: relative;
 }
 #principal ul li a {
     display: inline-block;
