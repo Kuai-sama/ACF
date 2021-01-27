@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
 #menuGauche {
@@ -25,14 +24,8 @@ body {
     background-color: lightblue;
 }
 
-#principal {
-    margin-top: -30px;
-}
 #principal ul {
-    margin-left : 3%;
-    margin-right: 3%;
-    margin-top: 0;
-    padding : 0;
+    margin 0;
 }
 #principal ul li {
     float: left;
@@ -50,13 +43,12 @@ body {
 }
 #principal ul li a:hover {
     color: white;
-    background-color: #13703f ; 
+    background-color: #13703f; 
 }
  
 #texte {
-    display: block;
     width: 95%;
-    height:50%;
+    height: 50%;
     margin: auto;
 }
 #texte p{
@@ -65,7 +57,6 @@ body {
 
 #footer {
     text-align: center;
-    display: block;
     background-color: #7fffbb;
     height: 60px;
 }
@@ -93,7 +84,6 @@ a:hover {
     position: relative;
     overflow: hidden;
     background-color: #48BBD5;
-    display:block;
     z-index:-1;
 }
 .container p{
