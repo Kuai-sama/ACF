@@ -12,40 +12,47 @@ body {
     position: fixed;
     width: 14%;
     height: 100%;
-    margin-left:86%; 
+    margin-left: 86%; 
     background-color: #5499c7;
 }
 
 #site{
+    position: relative;
     width: 72%;
-    margin: auto;
-    background-color: lightblue;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#principal{
+    display: inline-block;
 }
 
 #principal ul {
     margin: 0 auto;
-    width: 70%;
 }
-#principal ul li {
-    margin: 0 auto;
-    width: 100px; 
-    float: left;
-    list-style-type: none;
-}
-#principal ul li a {
-    display: inline-block;
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
+#principal ul li{
+    display: block;
     background-color: #7fffbb;
     width: 100px;
-    color: black;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-#principal ul li a:hover {
+.principal ul li: hover{
+    background-color: #13703f;
+}
+.principal  li a {
+    color: #000000;
+    text-decoration: none; 
+}
+
+.principal li a:hover {
     color: white;
-    background-color: #13703f; 
+    background-color: #13703f;
+    text-decoration: none;
 }
- 
+
 #texte {
     width: 95%;
     height: 50%;
@@ -56,6 +63,7 @@ body {
 }
 
 #footer {
+    display: block;
     text-align: center;
     background-color: #7fffbb;
     height: 60px;
@@ -84,7 +92,7 @@ a:hover {
     position: relative;
     overflow: hidden;
     background-color: #48BBD5;
-    z-index:-1;
+    z-index: -1;
 }
 .container p{
     text-align: center;
