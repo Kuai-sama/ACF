@@ -42,12 +42,12 @@ body {
 .principal ul li: hover{
     background-color: #13703f;
 }
-.principal  li a {
+.principal li a {
     color: #000000;
     text-decoration: none; 
 }
 
-.principal li a:hover {
+.principal li a: hover {
     color: white;
     background-color: #13703f;
     text-decoration: none;
@@ -84,7 +84,6 @@ a:hover {
     color :red;
     text-decoration: underline;
 }
-
 
 .container {
     width:  100%;
