@@ -39,15 +39,15 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.principal ul li: hover{
+#principal ul li: hover{
     background-color: #13703f;
 }
-.principal li a {
+#principal li a {
     color: #000000;
     text-decoration: none; 
 }
 
-.principal li a: hover {
+#principal li a: hover {
     color: white;
     background-color: #13703f;
     text-decoration: none;
