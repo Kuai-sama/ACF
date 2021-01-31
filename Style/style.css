@@ -74,12 +74,13 @@ body {
     top: 15px;
 }
 
-a {
+#texte a {
     color: blue;
     text-decoration: none;
+    float: left;
 }
      
-a:hover {
+#texte a:hover {
     color :red;
     text-decoration: underline;
 }
