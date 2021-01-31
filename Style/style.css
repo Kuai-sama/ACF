@@ -81,7 +81,7 @@ body {
 }
      
 #texte a:hover {
-    color :red;
+    color: red;
     text-decoration: underline;
 }
 
