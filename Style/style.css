@@ -8,7 +8,7 @@ body {
     height: 100%;
     background-color: #5499c7;
 }
-#menuDroite{
+#menuDroite {
     position: fixed;
     width: 14%;
     height: 100%;
@@ -16,7 +16,7 @@ body {
     background-color: #5499c7;
 }
 
-#site{
+#site {
     position: relative;
     width: 72%;
     height: 250px;
@@ -24,14 +24,14 @@ body {
     margin: 0 auto;
 }
 
-#principal{
+#principal {
     display: inline-block;
 }
 
 #principal ul {
     margin: 0 auto;
 }
-#principal ul li{
+#principal ul li {
     display: block;
     background-color: #7fffbb;
     width: 100px;
@@ -39,7 +39,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#principal ul li:hover{
+#principal ul li:hover {
     background-color: #13703f;
 }
 #principal li a {
@@ -57,7 +57,7 @@ body {
     width: 95%;
     margin: auto;
 }
-#texte p{
+#texte p {
     text-align: left
 }
 
@@ -84,7 +84,7 @@ body {
     color: red;
     text-decoration: underline;
 }
-#texte ul{
+#texte ul {
     float: left;
 }
 
@@ -96,7 +96,7 @@ body {
     background-color: #48BBD5;
     z-index: -1;
 }
-.container p{
+.container p {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
