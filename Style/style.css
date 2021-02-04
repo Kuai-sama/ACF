@@ -58,20 +58,7 @@ body {
     margin: auto;
 }
 #texte p {
-    text-align: left
-}
-
-#footer {
-    display: block;
-    text-align: center;
-    background-color: #7fffbb;
-    height: 60px;
-}
-#footer p {
-    color: #164a29;
-    font-weight: bold;
-    position: relative;
-    top: 15px;
+    text-align: left;
 }
 
 #texte a {
@@ -86,6 +73,20 @@ body {
 }
 #texte ul {
     float: left;
+    text-align: left;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+    background-color: #7fffbb;
+    height: 60px;
+}
+#footer p {
+    color: #164a29;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
 }
 
 .container {
