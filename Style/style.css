@@ -27,7 +27,6 @@ body {
 #principal {
     display: inline-block;
 }
-
 #principal ul {
     margin: 0 auto;
 }
@@ -46,7 +45,6 @@ body {
     color: #000000;
     text-decoration: none; 
 }
-
 #principal li a:hover {
     color: white;
     background-color: #13703f;
@@ -60,13 +58,11 @@ body {
 #texte p {
     text-align: left;
 }
-
 #texte a {
     color: blue;
     text-decoration: none;
     float: left;
-}
-     
+}    
 #texte a:hover {
     color: red;
     text-decoration: underline;
