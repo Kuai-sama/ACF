@@ -94,6 +94,7 @@ body {
     z-index: -1;
 }
 .container p {
+    font-family: "MyHandwritingSucks", arial, sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -225,3 +226,8 @@ body {
  left: 110%;
  transform: translateY(0vh) scale(0.45);
 }}
+
+@font-face {
+    font-family: "MyHandwritingSucks";
+    src :('css/MyHandwritingSucks.TTF');
+}
