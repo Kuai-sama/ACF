@@ -229,5 +229,5 @@ body {
 
 @font-face {
     font-family: "AkayaTelivigala-Regular";
-    src :local('/Style/AkayaTelivigala-Regular.ttf');
+    src :url('/Style/AkayaTelivigala-Regular.ttf');
 }
