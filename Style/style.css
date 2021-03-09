@@ -229,5 +229,5 @@ body {
 
 @font-face {
     font-family: "MyHandwritingSucks";
-    src :('Style/MyHandwritingSucks.TTF');
+    src :('/Style/MyHandwritingSucks.ttf');
 }
