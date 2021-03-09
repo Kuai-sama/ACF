@@ -94,7 +94,7 @@ body {
     z-index: -1;
 }
 .container p {
-    font-family: "MyHandwritingSucks", arial, sans-serif;
+    font-family: "AkayaTelivigala-Regular", arial, sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -228,6 +228,6 @@ body {
 }}
 
 @font-face {
-    font-family: "MyHandwritingSucks";
-    src :url('/Style/MyHandwritingSucks.ttf');
+    font-family: "AkayaTelivigala-Regular";
+    src :url('/Style/AkayaTelivigala-Regular.ttf');
 }
