@@ -96,7 +96,6 @@ body {
     z-index: -1;
 }
 .container p {
-    font-family: "AkayaTelivigala-Regular", arial, sans-serif;
     text-align: center;
     font-size: 34px;
     position: relative;
@@ -231,9 +230,4 @@ body {
 @font-face {
     font-family: "AkayaTelivigala-Regular";
     src :url('../Style/AkayaTelivigala-Regular.ttf');
-}
-
-@font-face {
-    font-familly: "AmaticSC-Regular";
-    src:url('../Style/AmaticSC-Regular.ttf');
 }
