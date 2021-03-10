@@ -77,13 +77,14 @@ body {
     text-align: center;
     background-color: #7fffbb;
     height: 60px;
-    font-family: "AkayaTelivigala-Regular", arial, sans-serif;
+   
 }
 #footer p {
     color: #164a29;
     font-weight: bold;
     position: relative;
     top: 15px;
+    font-family: "AkayaTelivigala-Regular", arial, sans-serif;
 }
 
 .container {
