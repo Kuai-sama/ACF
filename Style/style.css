@@ -84,6 +84,7 @@ body {
     font-weight: bold;
     position: relative;
     top: 15px;
+    font-family: "AmaticSC-Regular", arial, sans-serif;
 }
 
 .container {
@@ -230,4 +231,9 @@ body {
 @font-face {
     font-family: "AkayaTelivigala-Regular";
     src :url('../Style/AkayaTelivigala-Regular.ttf');
+}
+
+@font-face {
+    font-familly: "AmaticSC-Regular";
+    src:url('../Style/AmaticSC-Regular.ttf');
 }
