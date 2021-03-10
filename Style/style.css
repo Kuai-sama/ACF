@@ -77,14 +77,12 @@ body {
     text-align: center;
     background-color: #7fffbb;
     height: 60px;
-   
 }
 #footer p {
     color: #164a29;
     font-weight: bold;
     position: relative;
     top: 15px;
-    font-family: "AmaticSC-Regular", arial, sans-serif;
 }
 
 .container {
@@ -100,6 +98,7 @@ body {
     font-size: 34px;
     position: relative;
     top: 7px;
+      font-family: "MyHandwritingSucks.ttf", arial, sans-serif;
 }
 .bird {
     background-image: url(https://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg);
