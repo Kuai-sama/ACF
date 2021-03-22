@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr" dir="ltr">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<link rel="stylesheet" type="text/css" href="../../Style/style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="../../image/logo.jpg"/>
+		<title>AC'Facile/All/Spé Anglais</title>
+	</head>
+
+	<body>
+		<div id="menuGauche"> </div>
+		<div id="menuDroite"> </div>
+		
+		<div class="container">
+    		<p>Ac'Facile.com<br>
+			Spé Anglais</p>
+    		<div class="bird-container bird-container--one">
+      			<div class="bird bird--one"></div>
+    		</div>
+    		<div class="bird-container bird-container--two">
+      			<div class="bird bird--two"></div>
+    		</div>
+    		<div class="bird-container bird-container--three">
+      			<div class="bird bird--three"></div>
+    		</div>
+    		<div class="bird-container bird-container--four">
+      			<div class="bird bird--four"></div>
+    		</div>
+  		</div>
+
+		<div id="site">
+		<div id="principal">
+			<ul>
+				<li><a href="../../site.html">Accueil</a></li>
+				<li><a href="../Seconde/Rsc_Seconde.html"> Seconde</a></li>
+				<li><a href="../Premiere/Rsc_Premiere.html"> Première</a></li>
+				<li><a href="../Terminale/Rsc_Terminale.html"> Terminale</a></li>
+			</ul>
+		</div>
+
+		<div id="texte">
+			<h2>Quizlet</h2>
+
+			<ul>
+				<li><a href="https://quizlet.com/_97vtk3?x=1jqt&i=2aatc0">Voc pour "Making a difference"</a></li>
+				<li><a href="https://quizlet.com/_97vq7i?x=1jqt&i=2aatc0">"Voc pour "Nutrition & inequality"</a></li>
+				<li><a href="https://quizlet.com/_97ve4c?x=1jqt&i=2aatc0">Voc pour "Native american"</a></li>
+				<li><a href="https://quizlet.com/_97u50t?x=1jqt&i=2aatc0">Voc pour "American Dream"</a></li>
+			</ul>	
+			<br><br><br><br>
+
+			<h2>Vidéos youtube</h2>
+			<h3>Aide pour bien prononcer les tons</h3>
+
+			<ul>
+				<li><a href="https://youtu.be/QpDbuji_Hew">1/4</a></li>
+				<li><a href="https://youtu.be/WdySIVkSqT0">2/4</a></li>
+				<li><a href="https://youtu.be/mcOMmC5qy08 ">3/4</a></li>
+				<li><a href="https://youtu.be/EzlurU-yup4">4/4</a></li>
+			</ul>	
+		<br><br><br><br><br>
+
+		</div>
+		<div id="footer">
+			<p>Ac'Facile On Va T'aider</p>
+		</div>
+		</div>
+	</body>
+</html>
+
