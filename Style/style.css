@@ -126,9 +126,11 @@ li{
   max-height: 130px;
   box-sizing: border-box;
 }
-.box a {
+#texte .box a {
    color: #337DFF;
-    text-decoration: none;
+   text-decoration: none;
+   text-align: center;
+   float: none;
 }
 
 /* responsive grid*/
