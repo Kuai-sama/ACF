@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
     background: #ecf0f1;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 #texte a {
-    color: blue;
+    color: #337DFF;
     text-decoration: none;
 }    
 #texte a:hover {
