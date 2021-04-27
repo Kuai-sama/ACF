@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-size: 18px;
+    background: #ecf0f1;
 }
 
 #menuGauche {
@@ -55,22 +56,16 @@ body {
 #texte {
     width: 95%;
     margin: auto;
+  
 }
-#texte p {
-    text-align: left;
-}
+
 #texte a {
     color: blue;
     text-decoration: none;
-    float: left;
 }    
 #texte a:hover {
     color: red;
     text-decoration: underline;
-}
-#texte ul {
-    float: left;
-    text-align: left;
 }
 
 #footer {
@@ -86,6 +81,60 @@ body {
     top: 15px;
 }
 
+.X{
+  margin: auto;
+  padding: 1% 2%;
+  max-width: 1440px;
+  border-radius: 5px;
+  background: #ecf0f1;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
+}
+h1,h2,h3{
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+}
+li{
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', serif;
+}
+/*SG = style grid*/
+.SG{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.SG .sgLi{
+  min-width: 24%;
+  margin: 2% .35%;
+  display: inline-flex;
+  box-shadow: 0 2px 4px rgba(0,0,0, .2);
+}
+.SG .sgLi:hover{
+  box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+
+.SG .box{
+  width: 100%;
+  height: 100px;
+  padding: 1% 2%;
+  background: #fff;
+  min-height: 10px;
+  max-height: 130px;
+  box-sizing: border-box;
+}
+
+/* responsive grid*/
+@media (max-width: 970px)
+{
+  .SG .sgLi{width: 180px;}
+}
+@media (max-width: 425px)
+{
+  .SG .sgLi{width: 100%;}
+}
 .container {
     width:  100%;
     height: 150px ;
@@ -231,3 +280,4 @@ body {
     font-family: "RibeyeMarrow-Regular";
     src :url('../Style/RibeyeMarrow-Regular.ttf');
 }
+
