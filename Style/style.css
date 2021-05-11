@@ -3,7 +3,9 @@ body {
     font-size: 14px;
     background: #ecf0f1;
 }
-
+#texte ul{
+    text-align: initial;
+}
 #menuGauche {
     position: fixed;
     width: 14%;
