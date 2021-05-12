@@ -4,6 +4,10 @@ body {
     background: #ecf0f1;
 }
 
+html, body {
+  height: 100%;
+}
+
 #menuGauche {
     position: fixed;
     width: 14%;
@@ -23,7 +27,9 @@ body {
     width: 72%;
     height: 250px;
     text-align: center;
-    margin: 0 auto;
+  margin: 0 auto -50px;
+  min-height: 100%;
+
 }
 
 #principal {
@@ -68,6 +74,9 @@ body {
     color: red;
     text-decoration: underline;
 }
+#texte ul{
+  text-align: initial;
+}
 
 #footer {
     display: block;
@@ -76,6 +85,19 @@ body {
     height: 60px;
 }
 #footer p {
+    color: #164a29;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: #7fffbb;
+    height: 60px;
+}
+footer p {
     color: #164a29;
     font-weight: bold;
     position: relative;
@@ -102,11 +124,12 @@ li{
   font-family: 'Raleway', serif;
 }
 /*SG = style grid*/
-.SG{
+#texte .SG {
+  text-align: center;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
+
 .SG .sgLi{
   min-width: 24%;
   margin: 2% .35%;
@@ -128,8 +151,6 @@ li{
 }
 #texte .box a {
    color: #337DFF;
-   text-decoration: none;
-   text-align: center;
    float: none;
 }
 
