@@ -62,9 +62,7 @@ html, body {
 #texte {
     width: 95%;
     margin: auto;
-  
 }
-
 #texte a {
     color: blue;
     text-decoration: none;
@@ -77,18 +75,55 @@ html, body {
 #texte ul{
   text-align: initial;
 }
-
-#footer {
-    display: block;
-    text-align: center;
-    background-color: #7fffbb;
-    height: 60px;
+#texte .SG {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
-#footer p {
-    color: #164a29;
-    font-weight: bold;
-    position: relative;
-    top: 15px;
+#texte .box a {
+   color: #337DFF;
+   float: none;
+}
+
+.SG .sgLi {
+  min-width: 24%;
+  margin: 2% .35%;
+  display: inline-flex;
+  box-shadow: 0 2px 4px rgba(0,0,0, .2);
+}
+.SG .sgLi:hover {
+  box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+.SG .box {
+  width: 100%;
+  height: 100px;
+  padding: 1% 2%;
+  background: #fff;
+  min-height: 10px;
+  max-height: 130px;
+  box-sizing: border-box;
+}
+
+.X{
+  margin: auto;
+  padding: 1% 2%;
+  max-width: 1440px;
+  border-radius: 5px;
+  background: #ecf0f1;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
+}
+
+h1,h2,h3{
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+}
+
+li{
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', serif;
 }
 
 footer {
@@ -104,57 +139,6 @@ footer p {
     top: 15px;
 }
 
-.X{
-  margin: auto;
-  padding: 1% 2%;
-  max-width: 1440px;
-  border-radius: 5px;
-  background: #ecf0f1;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0, .3);
-}
-h1,h2,h3{
-  text-align: center;
-  font-family: 'Baloo Tamma', cursive;
-}
-li{
-  color: #2c3e50;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  font-family: 'Raleway', serif;
-}
-/*SG = style grid*/
-#texte .SG {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.SG .sgLi{
-  min-width: 24%;
-  margin: 2% .35%;
-  display: inline-flex;
-  box-shadow: 0 2px 4px rgba(0,0,0, .2);
-}
-.SG .sgLi:hover{
-  box-shadow:0 5px 10px rgba(0,0,0,.15);
-}
-
-.SG .box{
-  width: 100%;
-  height: 100px;
-  padding: 1% 2%;
-  background: #fff;
-  min-height: 10px;
-  max-height: 130px;
-  box-sizing: border-box;
-}
-#texte .box a {
-   color: #337DFF;
-   float: none;
-}
-
-/* responsive grid*/
 @media (max-width: 970px)
 {
   .SG .sgLi{width: 180px;}
@@ -163,6 +147,7 @@ li{
 {
   .SG .sgLi{width: 100%;}
 }
+
 .container {
     width:  100%;
     height: 150px ;
@@ -178,6 +163,7 @@ li{
     top: 7px;
     font-family: "RibeyeMarrow-Regular", arial, sans-serif;
 }
+
 .bird {
     background-image: url(https://www.iamramraj.com/demo/Flying_birds_CSS_animation_examples/bird-cells.svg);
     background-size: auto 100%;
@@ -308,4 +294,3 @@ li{
     font-family: "RibeyeMarrow-Regular";
     src :url('../Style/RibeyeMarrow-Regular.ttf');
 }
-
