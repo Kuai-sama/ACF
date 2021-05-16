@@ -8,6 +8,10 @@ html, body {
   height: 100%;
 }
 
+sup, sub {
+line-height:120%;
+}
+
 #menuGauche {
     position: fixed;
     width: 14%;
@@ -27,8 +31,8 @@ html, body {
     width: 72%;
     height: 250px;
     text-align: center;
-  margin: 0 auto -50px;
-  min-height: 100%;
+    margin: 0 auto -50px;
+    min-height: 100%;
 
 }
 
