@@ -130,6 +130,15 @@ li{
   font-family: 'Raleway', serif;
 }
 
+.image-lien img {display : none; }
+
+a.image-lien:hover img {
+display : block;
+position: absolute;
+height : 150px;
+margin-left :23%; }
+
+
 footer {
     display: block;
     text-align: center;
