@@ -27,6 +27,7 @@ p {
 }
 #Seconde h3, #Terminale h3 , #SNIR1 h3{
   text-decoration: underline;
+  color : #e25842;
 }
 #Seconde {
   float: left;
